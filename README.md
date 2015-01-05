@@ -47,7 +47,7 @@ guidelines
 - 使用`location.hash`对前端页面进行路由。路由规则采用`REST`风格，**并以`#!/`开头**，例如：
   - users.html#!/1
   - users.html#!/1/update
-- 避免使用`id`。
+- 避免使用`id`和页内锚点。
 
 ----
 
