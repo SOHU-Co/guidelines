@@ -8,7 +8,7 @@ guidelines
 ## 通用项
 
 - HTML、CSS、Javascript 全部使用**2格缩进**。
-- 文件名采用`REST`风格，使用**复数名词**，**小写**，如存在层级关系则放入子目录中，使用`-`单词，例如：
+- 文件名采用`REST`风格，使用**复数名词**，**小写**，如存在层级关系则放入子目录中，使用`-`分割单词，例如：
   - users.html
   - users/(**index**|create|update|delete|list).html
   - ~~upload-to-cdn.js~~ (尽量避免，可以使用*upload.js*代替)
