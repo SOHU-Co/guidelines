@@ -39,6 +39,9 @@ guidelines
 - 提交代码前应删除所有`console.log()`，使用[debug](https://github.com/visionmedia/debug)保留必要的log。
 - 模板引擎使用[ejs](https://github.com/tj/ejs)。
 - 缓存（*redis/memcache*）的键名应使用REST风格，并以`:`作为分隔符。
+- HTTP接口返回的状态码应该清楚明确，出错时应该能讲客户端错误与服务端错误明确的区分开，详见:
+  [Status Code Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)。
+- **禁止使用状态码301**。
 
 ### 前端
 
@@ -61,6 +64,7 @@ guidelines
   - users.html#!/1
   - users.html#!/1/update
 - 避免使用`id`和页内锚点。
+- 错误页应以HTTP状态码命名文件，例如：404.html。
 
 ----
 
