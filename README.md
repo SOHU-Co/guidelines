@@ -20,7 +20,8 @@ guidelines
 
 ## Javascript
 
-代码风格基本沿用[npm's "funny" coding style](https://docs.npmjs.com/misc/coding-style)
+- 代码风格基本沿用[npm's "funny" coding style](https://docs.npmjs.com/misc/coding-style)。
+- 字符串一律使用**单引号**。
 
 特别说明：
 
@@ -54,7 +55,8 @@ guidelines
 
 ## CSS
 
-- 变量命名使用**减号**`-`分割。
+- 类名全部使用**小写**，**减号**`-`分割。
+- **避免**使用`id`选择器。
 
 ----
 
@@ -63,8 +65,9 @@ guidelines
 - 使用`location.hash`对前端页面进行路由。路由规则采用`REST`风格，**并以`#!/`开头**，例如：
   - users.html#!/1
   - users.html#!/1/update
-- 避免使用`id`和页内锚点。
+- **避免**使用`id`和页内锚点。
 - 错误页应以HTTP状态码命名文件，例如：404.html。
+- 自定义的标签属性，以`data-`开头，**减号**`-`分割，例如：`data-user-city="beijing"`。
 
 ----
 
